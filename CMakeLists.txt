@@ -3,4 +3,4 @@ project(embedded C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(embedded main.c time_record.c)
+add_executable(embedded main.c time_record.c producer.c customer.c lock_set.c)
