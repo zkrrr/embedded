@@ -20,8 +20,8 @@
 #define SIGN_TYPE ALPHABET
 const char *fifo_file = "./myfifo";
 char buff[MAXLEN];
-extern int lock_set(int fd, short type);
 
+extern int lock_set(int fd, short type);
 
 int produce()
 {
